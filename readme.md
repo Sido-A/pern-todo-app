@@ -1,4 +1,4 @@
-#PERN SIMPLE CRUD TODO APP
+# PERN SIMPLE CRUD TODO APP
 
 ## Used:
 - Postgres
