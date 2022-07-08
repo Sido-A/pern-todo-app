@@ -18,7 +18,6 @@ const ListTodo = () => {
       const response = await fetch(`http://localhost:5000/todos/${id}`, {
         method: "DELETE",
       });
-      console.log(response);
       if (response.status === 200) {
         setTodos(todos.filter((todo) => todo.todo_id !== id));
       }
